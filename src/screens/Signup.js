@@ -121,13 +121,7 @@ const Signup = ({
                             onChangeText={(text) => setFdata({ ...fdata, cpassword: text })}
                         />
                     </View>
-                    <View style={formgroup}>
-                        <Text style={label}>Address</Text>
-                        <TextInput style={input1} placeholder="Enter your Address"
-                            onPressIn={() => setErrormsg(null)}
-                            onChangeText={(text) => setFdata({ ...fdata, address: text })}
-                        />
-                    </View>
+                    
 
                     <TouchableOpacity
                         onPress={() => {
