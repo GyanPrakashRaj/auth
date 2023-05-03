@@ -121,6 +121,23 @@ const Signup = ({
                             onChangeText={(text) => setFdata({ ...fdata, cpassword: text })}
                         />
                     </View>
+                    <View style={formgroup}>
+                        <Text style={label}>Scrollviewtest</Text>
+                        <TextInput style={input} placeholder="Confirm your Password"
+                            onPressIn={() => setErrormsg(null)}
+                            secureTextEntry={true}
+                            onChangeText={(text) => setFdata({ ...fdata, cpassword: text })}
+                        />
+                    </View>
+                    <View style={formgroup}>
+                        <Text style={label}>Scrollview test</Text>
+                        <TextInput style={input} placeholder="Confirm your Password"
+                            onPressIn={() => setErrormsg(null)}
+                            secureTextEntry={true}
+                            onChangeText={(text) => setFdata({ ...fdata, cpassword: text })}
+                        />
+                    </View>
+
                     
 
                     <TouchableOpacity
@@ -183,7 +200,7 @@ const styles = StyleSheet.create({
         height: '90%',
         borderTopLeftRadius: 30,
         borderTopRightRadius: 30,
-        padding: 20,
+        padding: 2,
 
     },
     formgroup: {
