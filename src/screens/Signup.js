@@ -198,9 +198,9 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         width: '100%',
         height: '90%',
-        borderTopLeftRadius: 30,
-        borderTopRightRadius: 30,
-        padding: 2,
+        borderTopLeftRadius: 50,
+        borderTopRightRadius: 50,
+        padding: 1,
 
     },
     formgroup: {
