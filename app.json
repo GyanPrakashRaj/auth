@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mernloginsignupNative",
-    "slug": "mernloginsignupNative",
+    "name": "authpage",
+    "slug": "authpage",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
